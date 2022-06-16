@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ChartSong from '../components/SongList';
+import Header from '../components/Header';
 
 const ItunesBox = () => {
     const [songs, setSongs] = useState([]);
@@ -17,6 +18,7 @@ const ItunesBox = () => {
 
     return (
         <>
+            <Header title='TOP 20' />
             <ChartSong songs={songs} />
         </>
     )

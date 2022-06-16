@@ -2,6 +2,8 @@ import React from 'react'
 
 const Header =({title}) => {
     return(
-        <h3 className='header'>{title}</h3>
+        <h1 className='header'>{title}</h1>
     )
 }
+
+export default Header;

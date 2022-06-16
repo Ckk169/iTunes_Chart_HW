@@ -15,9 +15,9 @@ const ChartSong = ({ songs, key }) => {
 
     return (
         <>
-            <p>
-                {songNodes}
-            </p>
+
+            {songNodes}
+
         </>
     )
 
