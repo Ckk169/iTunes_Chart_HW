@@ -4,9 +4,9 @@ import Song from './Song';
 const ChartSong = ({ songs, key }) => {
 
     const songNodes = songs.map((song, index) => {
-        index += 1
+        // index += 1 // start chart position index from 1 and not 0. 
         return (< Song
-            chartPosition={index}
+            // chartPosition={index}
             song={song}
             key={index}
         />
@@ -14,11 +14,12 @@ const ChartSong = ({ songs, key }) => {
     })
 
     return (
-        <>
 
+        <ol>
             {songNodes}
+        </ol>
 
-        </>
+
     )
 
 }

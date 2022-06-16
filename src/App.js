@@ -4,8 +4,10 @@ import ItunesBox from './containers/ItunesBox'
 
 function App() {
   return(
+    <div className = 'App'>
 
     <ItunesBox/>
+    </div>
   )
 
 }

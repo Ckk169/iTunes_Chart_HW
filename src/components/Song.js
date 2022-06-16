@@ -5,9 +5,9 @@ const Song = ({ song, chartPosition }) => {
     return (
         <>
 
-            <h3>Number:{chartPosition}</h3>
+            {/* <h3>Number:{chartPosition}</h3> */}
 
-            <h4> Artist:{song['im:artist'].label}</h4>
+            <li>Artist:{song['im:artist'].label}</li>
             <h5>Title:{song['im:name'].label}</h5>
 
             <hr></hr>

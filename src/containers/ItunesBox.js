@@ -18,7 +18,7 @@ const ItunesBox = () => {
 
     return (
         <>
-            <Header title='TOP 20' />
+            <Header title='TOP 20 Song' />
             <ChartSong songs={songs} />
         </>
     )
